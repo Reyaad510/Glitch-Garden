@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
-   [SerializeField] float minSpawnDelay = 1f;
-   [SerializeField] float maxSpawnDelay = 5f;
+    [SerializeField] float minSpawnDelay = 1f;
+    [SerializeField] float maxSpawnDelay = 5f;
     [SerializeField] Attacker attackerPrefab;
     bool spawn = true; // use to stop waves when level ends
 
