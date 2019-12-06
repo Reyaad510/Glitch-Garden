@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DefenderButton : MonoBehaviour
 {
-
+    [SerializeField] Defender defenderPrefab;
 
     private void OnMouseDown()
     {
@@ -16,5 +16,6 @@ public class DefenderButton : MonoBehaviour
             button.GetComponent<SpriteRenderer>().color = new Color32(43, 43, 43, 255); // new Color32 means the rbg values and the three 43 refers to the grayed out color
         }
         GetComponent<SpriteRenderer>().color = Color.white;
+        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
 }

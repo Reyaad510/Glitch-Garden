@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 433186410}
   - component: {fileID: 433186411}
   - component: {fileID: 433186412}
+  - component: {fileID: 433186413}
   m_Layer: 0
   m_Name: 'Cactus '
   m_TagString: Untagged
@@ -412,6 +413,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3309252, y: 1.106363}
   m_EdgeRadius: 0
+--- !u!114 &433186413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433186409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf8ff77dfb5a3b49b11075cbee4857e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 5370738374478030841}
 --- !u!1 &650345391
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +929,7 @@ GameObject:
   - component: {fileID: 1741807744}
   - component: {fileID: 1741807745}
   - component: {fileID: 1741807746}
+  - component: {fileID: 1741807747}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -1010,6 +1025,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7913884, y: 0.62}
   m_EdgeRadius: 0
+--- !u!114 &1741807747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741807743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf8ff77dfb5a3b49b11075cbee4857e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 7420777479652860987}
 --- !u!1001 &3155554194006888289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1176,6 +1204,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50165626f23e76b4885d909f7205b323, type: 3}
+--- !u!114 &5370738374478030841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2941863098203602451, guid: 50165626f23e76b4885d909f7205b323,
+    type: 3}
+  m_PrefabInstance: {fileID: 5370738374478030840}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b6bce006d89b74eab125af367c153b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6907117456963193605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1314,6 +1354,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a28cffde76f2347bdc15933d0f7dd4, type: 3}
+--- !u!114 &7420777479652860987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7044760746643588919, guid: c1a28cffde76f2347bdc15933d0f7dd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7420777479652860986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b6bce006d89b74eab125af367c153b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8210557144304369807
 PrefabInstance:
   m_ObjectHideFlags: 0
