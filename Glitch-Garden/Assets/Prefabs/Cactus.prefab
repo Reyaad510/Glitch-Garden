@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6015171467030865981}
   - component: {fileID: 2941863098203602451}
+  - component: {fileID: 2012622740}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -75,6 +76,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 100
+--- !u!114 &2012622740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953306751108538617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99169e31e8feb941adbe52326e28c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 8868074059684628809, guid: 9269b6e0b2741f44cb0dd5fe01a67a7d,
+    type: 3}
+  gun: {fileID: 231529353633045241}
 --- !u!1 &8820561920437558345
 GameObject:
   m_ObjectHideFlags: 0
@@ -86,7 +102,6 @@ GameObject:
   - component: {fileID: 5838941327599299951}
   - component: {fileID: 3620929835705111637}
   - component: {fileID: 6086944006317652135}
-  - component: {fileID: 5996191125059671424}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -176,18 +191,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5996191125059671424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8820561920437558345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f99169e31e8feb941adbe52326e28c33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 8868074059684628809, guid: 9269b6e0b2741f44cb0dd5fe01a67a7d,
-    type: 3}
-  gun: {fileID: 231529353633045241}
