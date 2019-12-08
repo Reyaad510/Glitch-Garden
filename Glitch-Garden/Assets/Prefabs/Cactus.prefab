@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 6015171467030865981}
   - component: {fileID: 2941863098203602451}
   - component: {fileID: 2012622740}
+  - component: {fileID: 6033936334205671782}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -91,6 +92,25 @@ MonoBehaviour:
   projectile: {fileID: 8868074059684628809, guid: 9269b6e0b2741f44cb0dd5fe01a67a7d,
     type: 3}
   gun: {fileID: 231529353633045241}
+--- !u!95 &6033936334205671782
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953306751108538617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef09c1697dde13349a1dab8bfad6316c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8820561920437558345
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,7 +120,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5838941327599299951}
-  - component: {fileID: 3620929835705111637}
   - component: {fileID: 6086944006317652135}
   m_Layer: 0
   m_Name: Body
@@ -124,25 +143,6 @@ Transform:
   m_Father: {fileID: 6015171467030865981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &3620929835705111637
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8820561920437558345}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ef09c1697dde13349a1dab8bfad6316c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &6086944006317652135
 SpriteRenderer:
   m_ObjectHideFlags: 0
