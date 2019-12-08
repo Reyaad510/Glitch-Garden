@@ -23,6 +23,8 @@ public class Defender : MonoBehaviour
         return starCost;
     }
 
+    // Uncheck Exit time on line going Cactus Attack to Cactus Idle so will cancel idle animation to swithc to attacking animation
+
 
 
 
