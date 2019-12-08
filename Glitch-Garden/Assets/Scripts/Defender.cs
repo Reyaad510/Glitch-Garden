@@ -5,4 +5,38 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
     [SerializeField] int starCost = 100;
+
+
+
+
+
+
+    public void AddStars(int amount)
+    {
+        // Grabbing AddStars from StarDisplay so we can make animation on our trophy to update our display
+        FindObjectOfType<StarDisplay>().AddStars(amount);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
