@@ -43,4 +43,8 @@ public class StarDisplay : MonoBehaviour
         }
     }
 
+
+
+    // To find where something is including animation events highlight and go to find and replace. Then make sure next to Look in entire solution to find the folder with everything in it and then will show everywhere even if they are on animation
+
 }
