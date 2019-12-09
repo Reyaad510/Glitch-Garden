@@ -16,7 +16,7 @@ public class DefenderSpawner : MonoBehaviour
 
     public void SetSelectedDefender(Defender defenderToSelect)
     {
-        Debug.Log(defenderToSelect);
+        //Debug.Log(defenderToSelect);
         defender = defenderToSelect;
     }
 
@@ -51,6 +51,6 @@ public class DefenderSpawner : MonoBehaviour
     {
        
         Defender newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as Defender;
-        Debug.Log(roundedPos);
+       // Debug.Log(roundedPos);
     }
 }
