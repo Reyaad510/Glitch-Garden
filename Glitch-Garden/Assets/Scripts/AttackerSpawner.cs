@@ -36,6 +36,8 @@ public class AttackerSpawner : MonoBehaviour
 
     private void Spawn(Attacker myAttacker)
     {
+        if(!myAttacker) { return; };
+
         Attacker newAttacker = Instantiate(myAttacker, transform.position, Quaternion.identity) as Attacker;
         newAttacker.transform.parent = transform; // Allows us to spawn a new attacker as a child to the game object which instaniated it. (Go to unity and look under Spawners and play game. When enemy appear it will show which spawned them)
 
